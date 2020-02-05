@@ -30,17 +30,20 @@ Setup Environment
 - Install Centos minimal
 
 - Disable selinux
-  /etc/selinux/config
+
+  - /etc/selinux/config
 
 - Disable firewald
-  systemctl stop firewalld
-  systemctl disable firewalld
+
+  - systemctl stop firewalld
+  - systemctl disable firewalld
 
 - Install tools
-  vim
-  wget
-  net-tools
-  git
+
+  - vim
+  - wget
+  - net-tools
+  - git
 
 - Install Centreon with script fame
-  <https://github.com/mrsilvestrini/centreon>
+  - <https://github.com/mrsilvestrini/centreon>
