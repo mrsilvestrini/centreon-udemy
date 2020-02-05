@@ -10,12 +10,13 @@ Getting Started
 Prerequisites
 
 - Course
-  <https://www.udemy.com/course/centreon/>
+
+  - <https://www.udemy.com/course/centreon/>
 
 - Hypervisor (VMWare or Virtualbox)
 
 - Centos 7 minimal iso
-  <http://ftp.unicamp.br/pub/centos/7.7.1908/isos/x86_64/>
+  - <http://ftp.unicamp.br/pub/centos/7.7.1908/isos/x86_64/>
 
 Authors
 
