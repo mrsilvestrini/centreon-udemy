@@ -9,6 +9,9 @@ Getting Started
 
 Prerequisites
 
+- Course
+  <https://www.udemy.com/course/centreon/>
+
 - Hypervisor (VMWare or Virtualbox)
 
 - Centos 7 minimal iso
