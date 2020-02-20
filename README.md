@@ -41,7 +41,7 @@ Project for class Udemy Course Centreon 3.4
 - Install Centreon with script fame script  
   <https://github.com/mrsilvestrini/centreon>
 
-- Create Monitoring  
-  1 - Create a command  
-  Example: check_host_alive  
-  $USER1$/check_icmp -H $HOSTADDRESS$ -w 5000,50% -c 7000,100%
+- Create Monitoring
+  - Create a command  
+    Example: check_host_alive  
+    $USER1$/check_icmp -H $HOSTADDRESS$ -w 5000,50% -c 7000,100%
