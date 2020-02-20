@@ -30,21 +30,25 @@ Setup Environment
 
 - Install Centos minimal
 
-- Disable selinux
-
-  - /etc/selinux/config
+  Disable selinux  
+  /etc/selinux/config
 
 - Disable firewald
-
-  - systemctl stop firewalld
-  - systemctl disable firewalld
+  systemctl stop firewalld  
+  systemctl disable firewalld
 
 - Install tools
 
-  - vim
-  - wget
-  - net-tools
-  - git
+  vim  
+  wget  
+  net-tools  
+  git  
+  cifs-utils
 
-- Install Centreon with script fame
-  - <https://github.com/mrsilvestrini/centreon>
+- Install Centreon with script fame script
+  <https://github.com/mrsilvestrini/centreon>
+
+- Create Monitoring
+  1 - Create a command  
+  Example: check_host_alive  
+  $USER1$/check_icmp -H $HOSTADDRESS$ -w 5000,50% -c 7000,100%
