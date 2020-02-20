@@ -2,48 +2,41 @@
 
 Project for class Udemy Course Centreon 3.4
 
-Getting Started
+- Getting Started
+  Fork the project and enjoy.
+  Atention for pre requisites and License!!!
 
-- Fork the project and enjoy.
-- Atention for pre requisites and License!!!
+- Prerequisites
 
-Prerequisites
+  - Course
+    <https://www.udemy.com/course/centreon/>  
+    Hypervisor (VMWare or Virtualbox)
 
-- Course
+  - Centos 7 minimal iso
+    <http://ftp.unicamp.br/pub/centos/7.7.1908/isos/x86_64/>
 
-  - <https://www.udemy.com/course/centreon/>
+- Author
+  Marcos Silvestrini
 
-- Hypervisor (VMWare or Virtualbox)
+- License
+  This project is licensed under the MIT License - see the LICENSE.md file for details
 
-- Centos 7 minimal iso
-  - <http://ftp.unicamp.br/pub/centos/7.7.1908/isos/x86_64/>
+- Setup Environment
 
-Authors
+  - Install Centos minimal
+    Disable selinux  
+     /etc/selinux/config
 
-- Marcos Silvestrini
+  - Disable firewald  
+    systemctl stop firewalld  
+    systemctl disable firewalld
 
-License
-
-- This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Setup Environment
-
-- Install Centos minimal
-
-  Disable selinux  
-  /etc/selinux/config
-
-- Disable firewald
-  systemctl stop firewalld  
-  systemctl disable firewalld
-
-- Install tools
-
-  vim  
-  wget  
-  net-tools  
-  git  
-  cifs-utils
+  - Install tools
+    vim  
+    wget  
+    net-tools  
+    git  
+    cifs-utils
 
 - Install Centreon with script fame script
   <https://github.com/mrsilvestrini/centreon>
